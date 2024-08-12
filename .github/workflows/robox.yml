@@ -45,7 +45,7 @@ jobs:
         packer plugins install github.com/hashicorp/qemu
         packer plugins install github.com/hashicorp/hyperv
         packer plugins install github.com/hashicorp/docker
-        packer plugins install github.com/hashicorp/vmware
+        packer plugins install github.com/hashicorp/vmware v1.0.11
         packer plugins install github.com/hashicorp/vagrant
         packer plugins install github.com/hashicorp/parallels
         packer plugins install github.com/hashicorp/virtualbox
